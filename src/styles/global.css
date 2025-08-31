@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-mario {
+  font-family: 'Press Start 2P', monospace;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: 'Press Start 2P', monospace;
+  overflow-x: hidden;
+}
+
+/* Mario Coin Animation */
+@keyframes coinFall {
+  0% {
+    transform: translateY(-100px) rotateY(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(calc(100vh + 200px)) rotateY(720deg);
+    opacity: 0;
+  }
+}
+
+.coin-fall {
+  animation: coinFall linear infinite;
+  transform: translateY(-100px);
+}
+
+.mario-coin {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(45deg, #ffd700 0%, #ffed4e 25%, #ffd700 50%, #b8860b 75%, #ffd700 100%);
+  border: 3px solid #b8860b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 0 0 1px #ffd700,
+    inset 0 2px 4px rgba(255, 255, 255, 0.3),
+    0 2px 8px rgba(255, 215, 0, 0.5);
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.mario-coin-front {
+  filter: brightness(1.2);
+  box-shadow: 
+    0 0 0 2px #ffd700,
+    inset 0 2px 6px rgba(255, 255, 255, 0.4),
+    0 4px 12px rgba(255, 215, 0, 0.8);
+}
+
+.coin-inner {
+  color: #8b4513;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #ffd700;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.mystery-box {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(45deg, #8b4513 0%, #daa520 25%, #8b4513 50%, #654321 75%, #8b4513 100%);
+  border: 3px solid #654321;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 0 0 1px #daa520,
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    0 2px 4px rgba(0, 0, 0, 0.3);
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.mystery-box-inner {
+  color: #ffd700;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #8b4513;
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Hide scrollbar across all browsers */
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Webkit browsers */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Text selection */
+::selection {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* Letter Glitch Effects */
+.gold-letter {
+  color: #ffd700 !important;
+  text-shadow: 
+    0 0 5px #ffd700,
+    0 0 10px #ffd700,
+    0 0 15px #ffd700;
+  animation: goldGlow 0.3s ease-in-out;
+}
+
+.mystery-letter {
+  background: linear-gradient(45deg, #8b4513 0%, #daa520 25%, #8b4513 50%, #654321 75%, #8b4513 100%);
+  color: #ffd700 !important;
+  padding: 2px 4px;
+  border: 2px solid #654321;
+  border-radius: 2px;
+  text-shadow: 1px 1px 0 #8b4513;
+  animation: mysteryPulse 0.3s ease-in-out;
+}
+
+.normal-letter {
+  transition: all 0.2s ease;
+}
+
+/* Card Flip Animation */
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+}
+
+.flip-card-face {
+  backface-visibility: hidden;
+}
+
+@keyframes goldGlow {
+  0% { 
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% { 
+    transform: scale(1.1);
+    filter: brightness(1.5);
+  }
+  100% { 
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+@keyframes mysteryPulse {
+  0% { 
+    transform: scale(1) rotate(0deg);
+  }
+  50% { 
+    transform: scale(1.2) rotate(5deg);
+  }
+  100% { 
+    transform: scale(1) rotate(0deg);
+  }
+}
