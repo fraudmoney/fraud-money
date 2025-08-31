@@ -34,35 +34,13 @@ The long-term vision for Fraud Money involves creating a sustainable ecosystem w
 
 ## MESSAGE FROM THE DEV
 
-Building Fraud Money has been like developing a Mario game where you tell players upfront that the coins are worthless and the princess is never actually in any castle. Most cryptocurrency projects require developers to maintain elaborate fiction about changing the world while building what amounts to sophisticated gambling platforms.
+Hey, I built this Mario-themed crypto project because I got tired of all the overly serious cryptocurrency websites that promise to change the world. This is just a fun take on crypto culture using everyone's favorite plumber.
 
-This project started from frustration with the dishonesty permeating cryptocurrency culture. Every day brings new projects promising revolutionary technology that turns out to be slight variations on existing concepts, wrapped in marketing language designed to obscure rather than illuminate. Fraud Money represents an attempt to create something honest within an inherently dishonest space.
+The Mario theme works perfectly because collecting coins in video games is basically what crypto trading feels like - jumping around platforms, avoiding obstacles, and hoping you don't fall into a pit.
 
-The Mario theme emerged naturally because cryptocurrency trading resembles playing video games with real money. Players navigate levels of increasing difficulty, collect digital items of questionable value, fight recurring enemies using familiar strategies, and occasionally rescue valuable assets from castle dungeons. The parallels were too obvious to ignore.
+This project is about having fun with crypto culture while being upfront about the speculative nature of it all. No promises about moon missions or revolutionary technology - just honest entertainment with a retro gaming twist.
 
-Technical development involved creating clean, modern web interfaces that capture the aesthetic of classic video games while providing meaningful information about cryptocurrency markets. The challenge lay in balancing entertainment value with educational content, ensuring that humor enhances rather than obscures important concepts about market dynamics and risk management.
-
-Community response has validated the approach. Participants appreciate the transparency about speculative nature while still enjoying the social and psychological aspects that make cryptocurrency markets compelling. Creating space for honest discussion about market realities while maintaining engagement requires constant balancing, but results in healthier community dynamics than typical cryptocurrency projects.
-
-Future development will focus on expanding educational content and community features while maintaining the core principle of radical honesty about cryptocurrency mechanics. The goal remains building sustainable, enjoyable experiences that acknowledge rather than deny the gambling elements inherent in speculative markets.
-
-Thank you for participating in this experiment in honest fraud. Whether you make money, lose money, or break even, at least you knew what you were getting into from the beginning. Welcome to the Fraud Money family, where the only guarantee is that we tell you upfront there are no guarantees.
-
-## MESSAGE FROM THE DEV
-
-Building Fraud Money has been like developing a Mario game where you tell players upfront that the coins are worthless and the princess is never actually in any castle. Most cryptocurrency projects require developers to maintain elaborate fiction about changing the world while building what amounts to sophisticated gambling platforms.
-
-This project started from frustration with the dishonesty permeating cryptocurrency culture. Every day brings new projects promising revolutionary technology that turns out to be slight variations on existing concepts, wrapped in marketing language designed to obscure rather than illuminate. Fraud Money represents an attempt to create something honest within an inherently dishonest space.
-
-The Mario theme emerged naturally because cryptocurrency trading resembles playing video games with real money. Players navigate levels of increasing difficulty, collect digital items of questionable value, fight recurring enemies using familiar strategies, and occasionally rescue valuable assets from castle dungeons. The parallels were too obvious to ignore.
-
-Technical development involved creating clean, modern web interfaces that capture the aesthetic of classic video games while providing meaningful information about cryptocurrency markets. The challenge lay in balancing entertainment value with educational content, ensuring that humor enhances rather than obscures important concepts about market dynamics and risk management.
-
-Community response has validated the approach. Participants appreciate the transparency about speculative nature while still enjoying the social and psychological aspects that make cryptocurrency markets compelling. Creating space for honest discussion about market realities while maintaining engagement requires constant balancing, but results in healthier community dynamics than typical cryptocurrency projects.
-
-Future development will focus on expanding educational content and community features while maintaining the core principle of radical honesty about cryptocurrency mechanics. The goal remains building sustainable, enjoyable experiences that acknowledge rather than deny the gambling elements inherent in speculative markets.
-
-Thank you for participating in this experiment in honest fraud. Whether you make money, lose money, or break even, at least you knew what you were getting into from the beginning. Welcome to the Fraud Money family, where the only guarantee is that we tell you upfront there are no guarantees.
+Thanks for checking out Fraud Money - where crypto meets classic gaming humor!
 
 ## TECHNICAL IMPLEMENTATION
 
