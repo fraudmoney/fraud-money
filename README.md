@@ -40,7 +40,7 @@ The Mario theme works perfectly because collecting coins in video games is basic
 
 This project is about having fun with crypto culture while being upfront about the speculative nature of it all. No promises about moon missions or revolutionary technology - just honest entertainment with a retro gaming twist.
 
-Thanks for checking out Fraud Money - where crypto meets classic gaming humor!
+Thanks for checking out Fraud Money!
 
 ## TECHNICAL IMPLEMENTATION
 
