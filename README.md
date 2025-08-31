@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://res.cloudinary.com/dubelz7md/image/upload/v1756628313/att.vOsjO_qNJwRFTo9jwqcCtMQPovtl98Nt7pLWLj0lDk4_yewmpm.jpg" alt="Fraud Money Logo" width="200" />
+<img src="https://res.cloudinary.com/dubelz7md/image/upload/v1756658355/att.d348UMDMuW6dGK68W3ZxghUla0QY6lNYowbuKM4eKGY_yii6bw.jpg" alt="Fraud Money Logo" width="200" />
 
 [![Follow on X](https://img.shields.io/badge/Follow%20@fraudmoneyonx-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/fraudmoneyonx)
 
